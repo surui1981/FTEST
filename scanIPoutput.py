@@ -9,7 +9,7 @@ cwd = os.getcwd()
 
 # Define the IP range of the current network segment
 print("欢迎使用网络扫描工具！")
-ip_range = input("请输入需要扫描的主机当前网段或目标网段用,号隔开例如 '192.168.1., 192.168.2. ': ")
+ip_range = input("请输入需要扫描的主机当前网段或目标网段用,号隔开例如 '192.168.1. ': ")
 print("正在扫描，请稍等...")
 # Define the function to ping an IP address
 def ping(ip):
